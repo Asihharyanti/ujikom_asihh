@@ -30,7 +30,7 @@ Route::get('/datagallery', [GalleryController::class, 'getAllData']);
 Route::get('/datainofrmasi', [InformasiController::class, 'getAllData']);
 Route::get('/dataagenda', [AgendaController::class, 'getAllData']);
 
-Route::post('login', [LoginController::class, 'login']);
+Route::post('/login', [LoginController::class, 'login']);
 Route::post('/register', [RegisterController::class, 'regis']);
 
 
